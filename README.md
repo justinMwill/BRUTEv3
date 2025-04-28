@@ -1,24 +1,70 @@
-Advanced SMB Brute-Force and Spray Tool | Developed by 0dayjay
-# BRUTEv3 - SMB Attack Tool
+BRUTEv3 - SMB Attack Tool
+Developed by 0dayjay
+🚀 Overview
+BRUTEv3 is a multi-mode SMB password attack tool built for ethical hacking, penetration testing, and red-team operations.
+It offers classic bruteforce, username spray, password spray, and full spray functionalities — all with multi-threading, clean logging, and a professional user experience.
 
-### Developed by 0dayjay
+✨ Features
+🛡️ Classic Bruteforce (1 username, many passwords)
 
-BRUTEv3 is a multi-mode SMB bruteforce and spray tool built for ethical penetration testing and red-team operations.
+🛡️ Username Spray (many usernames, 1 password)
 
-## Features:
-- Classic Bruteforce (1 username, many passwords)
-- Username Spray (many usernames, 1 password)
-- Password Spray (1 username, many passwords)
-- Full Spray (userlist + passwordlist, carefully rotated)
-- Threaded attacks with user-controlled speed (`--threads`)
-- Timestamped success and failure logs
-- Clean professional console output with custom banner
+🛡️ Password Spray (1 username, many passwords carefully)
 
-#Important:
-For educational and ethical use only.
+🛡️ Full Spray (userlist + passwordlist carefully rotated)
 
-Always have permission to attack any system targeted with this tool.
+🛡️ Multi-threaded attacks (user-controlled with --threads)
 
-## Usage:
-```bash
+🛡️ Success logging with timestamp, target IP, attack mode, username, and password
+
+🛡️ Clean console banner and menu system
+
+🛡️ Works on Windows (Python 3.9+), fully portable with .exe option
+
+🛠️ Usage Example
+bash
+Copy
+Edit
 python smb_bruteforce_v3.py --threads 10
+Then select your attack mode:
+
+csharp
+Copy
+Edit
+[1] Classic Bruteforce
+[2] Username Spray
+[3] Password Spray
+[4] Full Spray
+[5] Exit
+✅ Enter your Target IP, Usernames, Passwords when prompted.
+
+✅ All successes are saved to successful_logins.txt.
+
+✅ Failures are logged to attempt_log.txt.
+
+🧠 Requirements
+Python 3.9+
+
+impacket library
+
+concurrent.futures (built-in)
+
+Windows / WSL / Linux compatible
+
+To install impacket:
+
+bash
+Copy
+Edit
+pip install impacket
+⚠️ Legal Notice
+This tool is intended for educational purposes and authorized testing only.
+You must have explicit permission to run this against any system.
+The developer is not responsible for misuse or illegal activities.
+
+📚 About 0dayjay
+Ethical Hacker | Penetration Tester | Developer
+
+Building custom offensive security tools for real-world ops
+
+Passionate about responsible cybersecurity
