@@ -81,10 +81,9 @@ The developer is **not responsible** for misuse or illegal activities.
 - Passionate about responsible cybersecurity
 
 ---
-
 # 📣 Example Screenshot:
-_Add a screenshot if you want!_  
-(Terminal open showing the BRUTEv3 banner + menu.)
+
+![BRUTEv3 Screenshot](./screenshot.png)
 
 ---
 
