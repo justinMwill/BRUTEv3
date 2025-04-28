@@ -1,3 +1,7 @@
+![Python](https://img.shields.io/badge/python-3.9%2B-blue)
+![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
+
 # BRUTEv3 - SMB Attack Tool
 ### Developed by 0dayjay
 
