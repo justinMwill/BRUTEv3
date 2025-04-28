@@ -22,20 +22,13 @@ It offers classic bruteforce, username spray, password spray, and full spray fun
 🛡️ Works on Windows (Python 3.9+), fully portable with .exe option
 
 🛠️ Usage Example
-bash
-Copy
-Edit
 python smb_bruteforce_v3.py --threads 10
-Then select your attack mode:
-
-csharp
-Copy
-Edit
 [1] Classic Bruteforce
 [2] Username Spray
 [3] Password Spray
 [4] Full Spray
 [5] Exit
+
 ✅ Enter your Target IP, Usernames, Passwords when prompted.
 
 ✅ All successes are saved to successful_logins.txt.
@@ -52,11 +45,8 @@ concurrent.futures (built-in)
 Windows / WSL / Linux compatible
 
 To install impacket:
+pip install impacket 
 
-bash
-Copy
-Edit
-pip install impacket
 ⚠️ Legal Notice
 This tool is intended for educational purposes and authorized testing only.
 You must have explicit permission to run this against any system.
