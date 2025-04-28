@@ -14,11 +14,11 @@ BRUTEv3 is a multi-mode SMB bruteforce and spray tool built for ethical penetrat
 - Timestamped success and failure logs
 - Clean professional console output with custom banner
 
-## Usage:
-```bash
-python smb_bruteforce_v3.py --threads 10
-
-Important:
+#Important:
 For educational and ethical use only.
 
 Always have permission to attack any system targeted with this tool.
+
+## Usage:
+```bash
+python smb_bruteforce_v3.py --threads 10
